@@ -20,6 +20,7 @@ const Hero = () => {
           <Image
             height={200}
             width={200}
+            alt=""
             src="https://dummyimage.com/720x600"
           />
         </div>
