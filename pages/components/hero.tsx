@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <p>Worked at</p>
           </div>
-          <div>Jp morgan & Chase</div>
+          <div>{`Jp morgan & Chase`}</div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 text-center">
           <Image
