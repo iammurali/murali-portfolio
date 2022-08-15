@@ -14,6 +14,7 @@ const Home: NextPage = () => {
       <Hero />
       <GithubCalendar />
       <RecentBlogs />
+      <RecentBlogs />
     </div>
   );
 };

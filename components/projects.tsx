@@ -1,6 +1,6 @@
 const RecentBlogs = () => {
   return (
-    <section className="text-gray-400 bg-black body-font">
+    <section data-aos="fade-up" className="text-gray-400 bg-black body-font">
       <div className="container max-w-7xl px-5 py-10 mx-auto">
       <div className="flex flex-wrap -m-4">
         {blogCard()}{blogCard()}{blogCard()}
@@ -12,7 +12,7 @@ const RecentBlogs = () => {
 
 export default RecentBlogs;
 function blogCard() {
-    return <div className="p-4 lg:w-1/3">
+    return <div data-aos="fade-up" className="p-4 lg:w-1/3">
             <div className="h-full bg-gray-800 bg-opacity-40 px-8 pt-10 pb-5 rounded-lg overflow-hidden text-center relative">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
                     CATEGORY
