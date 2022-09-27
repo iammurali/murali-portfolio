@@ -4,12 +4,11 @@ import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <section className="text-gray-400 bg-black body-font">
-      <div data-aos="zoom-in" className="border border-slate-600 border-dashed max-w-7xl  sm:px-6 lg:px-8 container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <div data-aos="zoom-in" className="max-w-7xl  sm:px-6 lg:px-8 container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <p className="mb-4 leading-relaxed">{`I'm Murali`}</p>
           <h1 className="title-font sm:text-4xl text-3xl font-medium text-white">
             Your friendly neighborhood <br />
-            
           </h1>
           <h1 className="title-font text-indigo-400 text-3xl font-medium mb-4">
               <Typewriter
