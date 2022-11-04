@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div>{`Jp morgan & Chase`}</div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 text-right">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex justify-center">
           <Image height={200} width={200} alt="" src="/programmer.png" />
         </div>
       </div>

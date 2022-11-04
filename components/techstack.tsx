@@ -1,9 +1,7 @@
 const TechStack = () => {
     return (
       <section className="text-left">
-        {/* <div className="flex justify-start">
-            <p>Tech stack</p>
-          </div> */}
+
         <div className="flex flex-row justify-between my-4">
           {nodejsIcon}
           {reactjsIcon}
