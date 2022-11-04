@@ -5,7 +5,7 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-black">
+    <nav className="bg-black sticky top-0 z-40 w-full">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -111,7 +111,7 @@ const NavBar = () => {
         className={`sm:hidden ${menuOpen ? "block" : "hidden"}`}
         id="mobile-menu"
       >
-        <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="px-2 pt-2 space-y-1">
           <a
             href="#"
             className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
