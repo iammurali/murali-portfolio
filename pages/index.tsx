@@ -6,6 +6,7 @@ import { GithubCalendar } from "../components/github";
 import Hero from "../components/hero";
 import NavBar from "../components/navbar";
 import RecentBlogs from "../components/projects";
+import TechStack from "../components/techstack";
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,6 @@ const Home: NextPage = () => {
       <NavBar />
       <Hero />
       <GithubCalendar />
-      <RecentBlogs />
       <RecentBlogs />
     </div>
   );
