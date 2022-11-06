@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 export const GithubCalendar = () => {
   return (
     <section
-      data-aos="fade-up"
+      // data-aos="fade-up"
       className="text-gray-400 bg-black body-font mt-4"
     >
       <div className="text-sm text-center"> Github Calendar Heatmap</div>

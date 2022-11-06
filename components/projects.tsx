@@ -1,6 +1,8 @@
 const RecentBlogs = () => {
   return (
-    <section data-aos="fade-up" className="text-gray-400 bg-black body-font">
+    <section 
+    // data-aos="fade-up" 
+    className="text-gray-400 bg-black body-font">
       <h1 className="text-2xl text-indigo-400 text-center title-font mb-4">
         Recent Blogs
       </h1>
@@ -17,7 +19,9 @@ export default RecentBlogs;
 
 function blogCard() {
   return (
-    <div data-aos="fade-up" className="p-3 lg:w-1/3">
+    <div 
+    // data-aos="fade-up" 
+    className="p-3 lg:w-1/3">
       <div className="h-full bg-gray-800 bg-opacity-40 px-8 pt-10 pb-5 rounded-lg overflow-hidden text-center relative">
         <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
           CATEGORY

@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    initAnimation();
+    // initAnimation();
   }, []);
   return <Component {...pageProps} />;
 }
