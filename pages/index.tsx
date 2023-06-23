@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ["latin"] });
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,19 +14,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
-        <aside className="md:max-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif">
-          Nav bar
-        </aside>
-        <main className="flex-auto">
-          <h1 className="text-3xl font-bold">Murali Elumalai</h1>
-          <br />
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-        </main>
-      </body>
+      <main >
+        <aside></aside>
+        <div></div>
+      </main>
     </>
-  );
+  )
 }
