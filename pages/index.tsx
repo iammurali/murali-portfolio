@@ -59,7 +59,7 @@ export default function Home() {
         {/* bio */}
       </div>
       <p className="my-5 max-w-[600px] text-neutral-200">
-        {`I am an Engineer, I'm passionate about Full stack development and I help early stage startups
+        {`I am an Engineer, passionate about Full stack development and I help early stage startups
          with easily adoptable tech stack. I also like collabrating for opensource projects`}
       </p>
     </Layout>
