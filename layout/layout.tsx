@@ -2,6 +2,7 @@ import Header from "@/src/components/head";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import { ReactNode } from "react";
+import { usePathname } from 'next/navigation';
 
 const Layout = ({
   data,
@@ -11,6 +12,7 @@ const Layout = ({
   children: ReactNode;
 }) => {
   let { title } = data;
+  let pathName = usePathname() || '/';
 
   return (
     <>
@@ -25,21 +27,21 @@ const Layout = ({
               <ul className="text-bold mt-2 flex flex-row md:flex-col space-x-0 pr-10 mb-2 md:mt-0">
                 <li className="py-[5px]">
                   <Link href="/">
-                    <span className=" text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px] font-bold">
+                    <span className={`text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px] ${pathName == '/'?'font-bold text-white' :''}`}>
                       Home
                     </span>
                   </Link>
                 </li>
                 <li className="py-[5px]">
                   <Link href="/about">
-                    <span className="text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px]">
+                    <span className={`text-neutral-400 hover:text-white transition-color duration-500 py-[5px] px-[10px] ${pathName == '/about'?'font-bold text-white' :''}`}>
                       About
                     </span>
                   </Link>
                 </li>
                 <li className="py-[5px]">
                   <Link href="/projects">
-                    <span className="text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px]">
+                    <span className={`text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px] ${pathName == '/projects'?'font-bold text-white' :''}`}>
                       Projects
                     </span>
                   </Link>
@@ -50,7 +52,7 @@ const Layout = ({
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span className="text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px]">
+                    <span className={`text-neutral-400 hover:text-white transition duration-300 py-[5px] px-[10px] ${pathName == '/blog'?'font-bold text-white' :''}`}>
                       Blog
                     </span>
                   </Link>
