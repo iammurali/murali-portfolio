@@ -79,7 +79,7 @@ const Layout = ({
                 <li className="py-[5px]">
                   <Link href="/">
                     <span
-                      className={`text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
                         pathName == "/"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-all duration-1000"
                           : ""
@@ -92,7 +92,7 @@ const Layout = ({
                 <li className="py-[5px]">
                   <Link href="/about">
                     <span
-                      className={`text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
                         pathName == "/about"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
                           : ""
@@ -105,7 +105,7 @@ const Layout = ({
                 <li className="py-[5px]">
                   <Link href="/projects">
                     <span
-                      className={`text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
                         pathName == "/projects"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
                           : ""
@@ -122,7 +122,7 @@ const Layout = ({
                     rel="noopener noreferrer"
                   >
                     <span
-                      className={`text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px]`}
+                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px]`}
                     >
                       Blog {`>>`}
                     </span>
