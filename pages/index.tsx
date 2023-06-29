@@ -11,10 +11,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <Layout data={{ title: "Murali Elumalai" }}>
-      <h1 className="font-bold text-3xl font-serif text-white">
+      <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">
         Murali Elumalai
       </h1>
-      <p className="my-5 max-w-[460px] text-neutral-200">
+      <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {`Hey, I'm Murali.`} <b>{`I'm an Engineer II at Eli & Lilly`}</b>, where
         my team is building a better future through technology driven
         problem-solving.
@@ -58,9 +58,9 @@ export default function Home() {
         </div>
         {/* bio */}
       </div>
-      <p className="my-5 max-w-[600px] text-neutral-200">
-        {`I am an Engineer, passionate about Full stack development and I help early stage startups
-         with easily adoptable tech stack. I also like collabrating for opensource projects`}
+      <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
+        {`As a passionate Engineer, I specialize in Full Stack development, aiding early-stage startups with easily adoptable tech stacks. 
+        I actively collaborate on open-source projects, fostering a spirit of innovation and collaboration.`}
       </p>
     </Layout>
   );

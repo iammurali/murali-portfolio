@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function About() {
   return (
     <Layout data={{ title: "Murali Elumalai" }}>
-      <h1 className="font-bold text-3xl font-serif text-white">Projects</h1>
-      <p className="my-5 max-w-[460px] text-neutral-200">
+      <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">Projects</h1>
+      <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {`This is the early stage of showcasing my projects, 
         I will keep building stuff that will use and list out here`}
       </p>
@@ -32,7 +32,7 @@ export default function About() {
               </div>
               <ArrowIcon />
             </div>
-            <p className="text-neutral-400 text-xs mt-2">
+            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
               your personal finance tracker
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function About() {
               </div>
               <ArrowIcon />
             </div>
-            <p className="text-neutral-400 text-xs mt-2">
+            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
               No Code Landing page generator
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function About() {
               </div>
               <ArrowIcon />
             </div>
-            <p className="text-neutral-400 text-xs mt-2">
+            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
               A cool text only portfolio webiste
             </p>
           </div>
