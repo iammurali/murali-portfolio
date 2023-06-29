@@ -3,7 +3,12 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Layout from "../layout/layout";
 import profilepic from "@/src/components/profilepic.jpeg";
-import { GithubIcon, InstagramIcon, TwitterIcon } from "@/src/components/icons";
+import {
+  GithubIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  TwitterIcon,
+} from "@/src/components/icons";
 import { socialLinks } from "@/lib/info";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,12 +35,12 @@ export default function Home() {
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
           <a
             className="flex items-center gap-2"
-            href={socialLinks.instagram}
+            href={socialLinks.linkedIn}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <InstagramIcon />
-            Instagram
+            <LinkedInIcon />
+            LinkedIn
           </a>
           <a
             className="flex items-center gap-2"

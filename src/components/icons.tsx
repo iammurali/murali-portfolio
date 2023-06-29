@@ -1,6 +1,6 @@
 export function InstagramIcon() {
-    // create a variable
-    
+  // create a variable
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -67,36 +67,40 @@ export function TwitterIcon() {
   );
 }
 
-
 export function ArrowIcon() {
-    return (
-      <svg
-        className="mr-2"
-        width="12"
-        height="12"
-        viewBox="0 0 12 12"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
-          fill="currentColor"
-        />
-      </svg>
-    );
-  }
-  
-  export function YoutubeIcon() {
-    return (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        height="800"
-        width="800"
-        viewBox="0 0 461.001 461.001"
-        className="w-5 h-5"
+  return (
+    <svg
+      className="mr-2"
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
         fill="currentColor"
-      >
-        <path d="M365.257 67.393H95.744C42.866 67.393 0 110.259 0 163.137v134.728c0 52.878 42.866 95.744 95.744 95.744h269.513c52.878 0 95.744-42.866 95.744-95.744V163.137c0-52.878-42.866-95.744-95.744-95.744zm-64.751 169.663-126.06 60.123c-3.359 1.602-7.239-.847-7.239-4.568V168.607c0-3.774 3.982-6.22 7.348-4.514l126.06 63.881c3.748 1.899 3.683 7.274-.109 9.082z" />
-      </svg>
-    );
-  }
+      />
+    </svg>
+  );
+}
+
+export function YoutubeIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="800"
+      width="800"
+      viewBox="0 0 461.001 461.001"
+      className="w-5 h-5"
+      fill="currentColor"
+    >
+      <path d="M365.257 67.393H95.744C42.866 67.393 0 110.259 0 163.137v134.728c0 52.878 42.866 95.744 95.744 95.744h269.513c52.878 0 95.744-42.866 95.744-95.744V163.137c0-52.878-42.866-95.744-95.744-95.744zm-64.751 169.663-126.06 60.123c-3.359 1.602-7.239-.847-7.239-4.568V168.607c0-3.774 3.982-6.22 7.348-4.514l126.06 63.881c3.748 1.899 3.683 7.274-.109 9.082z" />
+    </svg>
+  );
+}
+
+export function LinkedInIcon() {
+  return (
+    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="20" height="20"  className="w-5 h-5"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg>);
+}
