@@ -59,15 +59,15 @@ const Layout = ({
   data,
   children,
 }: {
-  data: { title: string };
+  data: { title: string, description: string };
   children: ReactNode;
 }) => {
-  let { title } = data;
+  let { title, description } = data;
   let pathName = usePathname() || "/";
 
   return (
     <>
-      <Header></Header>
+      <Header title={title} description={description} />
       <main className="flex flex-col md:flex-row">
         <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif">
           <div className="lg:sticky lg:top-20">

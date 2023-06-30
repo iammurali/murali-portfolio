@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function About() {
   return (
-    <Layout data={{ title: "Murali Elumalai" }}>
+    <Layout data={{ title: "Project", description:"List of project murali has worked on" }}>
       <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">Projects</h1>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {`This is the early stage of showcasing my projects, 

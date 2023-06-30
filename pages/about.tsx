@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function About() {
   return (
-    <Layout data={{ title: "Murali Elumalai" }}>
+    <Layout data={{ title: "About", description:"About his work and what computers he uses is explained" }}>
       <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">
         About me
       </h1>

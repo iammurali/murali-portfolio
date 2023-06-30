@@ -5,6 +5,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <link
+          rel="icon"
+          href="/mlogo.svg"
+          sizes="any"
+          type="image/svg+xml"
+        ></link>
         <Script
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=G-JW877CZVJW`}

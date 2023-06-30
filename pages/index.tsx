@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Layout from "../layout/layout";
 import profilepic from "@/src/components/profilepic.jpeg";
 import {
+  ArrowIcon,
   GithubIcon,
   InstagramIcon,
   LinkedInIcon,
@@ -15,7 +16,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <Layout data={{ title: "Murali Elumalai" }}>
+    <Layout data={{ title: "Murali Elumalai", description:"A portfolio of Murali Elumalai's website" }}>
       <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">
         Murali Elumalai
       </h1>
@@ -67,6 +68,33 @@ export default function Home() {
         {`As a passionate Engineer, I specialize in Full Stack development, aiding early-stage startups with easily adoptable tech stacks. 
         I actively collaborate on open-source projects, fostering a spirit of innovation and collaboration.`}
       </p>
+      {/* <hr className="border-neutral-500 mt-5 mb-3"></hr> */}
+      {/* <h1 className="dark:text-neutral-200 pb-2 font-bold font-serif">Social Links</h1>
+      <div className="flex flex-col gap-2 md:flex-row md:gap-2">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={socialLinks.instagram}
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex items-center">
+            <div className="">Node.js</div>
+          </div>
+          <ArrowIcon />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={socialLinks.twitter}
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex items-center">
+            <div className="">React</div>
+          </div>
+          <ArrowIcon />
+        </a>
+       
+      </div> */}
     </Layout>
   );
 }
