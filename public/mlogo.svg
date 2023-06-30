@@ -1,5 +1,32 @@
-<svg width="95" height="90" viewBox="0 0 95 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg width="95" height="90" viewBox="0 0 95 90" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="15.6522" height="90" fill="white"/>
 <path d="M78.5 0H94.1522V90H78.5V0Z" fill="white"/>
 <path d="M46.985 49.8L26.0586 22.35L67.9115 22.35L46.985 49.8Z" fill="white"/>
-</svg>
+</svg> -->
+
+<svg
+      width="30"
+      height="30"
+      viewBox="0 0 79 91"
+      fill="gray"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="fill-black dark:fill-gray"
+        d="M0.165894 0.0171509L18.1659 27.5174L17 72.5L0.165894 90.0172V0.0171509Z"
+        fill="gray"
+       
+      />
+      <path
+        className="fill-black dark:fill-gray"
+       
+        d="M78.5 0.0171509L60.5 27.5174V74.5L78.5 90.0172V0.0171509Z"
+        fill="gray"
+      />
+      <path
+        className="fill-black dark:fill-gray"
+        
+        d="M39.1637 27.6435L18.2372 0.193498H39.1637L60.0901 0.193498L39.1637 27.6435Z"
+        fill="gray"
+      />
+    </svg>
