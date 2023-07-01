@@ -35,7 +35,7 @@ export default function Home() {
       </h1>
 
       <p className="my-5 max-w-[480px] text-neutral-800 dark:text-neutral-200">
-        {`Hey, I'm Murali.`} <b>{`I'm an Engineer II at Eli & Lilly`}</b>, where
+      {`Hey, I'm Murali 👋`}<br /> <b>{`I'm an Engineer II at Eli & Lilly`}</b>, where
         my team is building a better future through technology driven
         problem-solving.
       </p>
