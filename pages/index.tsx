@@ -40,32 +40,32 @@ export default function Home() {
         problem-solving.
       </p>
       <ul className="mb-2 flex flex-wrap  max-w-[460px]" aria-label="Technologies used">
-        <li className="mr-1.5 mt-2">
+        <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             React
           </div>
         </li>
-        <li className="mr-1.5 mt-2">
+        <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             Tailwindcss
           </div>
         </li>
-        <li className="mr-1.5 mt-2">
+        <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             Golang
           </div>
         </li>
-        <li className="mr-1.5 mt-2">
+        <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             Node.js
           </div>
         </li>
-        <li className="mr-1.5 mt-2">
+        <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             AWS
           </div>
         </li>
-        <li className="mr-1.5 mt-2">
+        <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             Typescript
           </div>
