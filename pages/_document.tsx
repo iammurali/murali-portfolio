@@ -18,12 +18,12 @@ export default function Document() {
 
         <Script id="ga-script" strategy="lazyOnload">
           {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JW877CZVJW', {
-      page_path: window.location.pathname,
-    });
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JW877CZVJW', {
+              page_path: window.location.pathname,
+            });
         `}
         </Script>
       </Head>

@@ -5,26 +5,72 @@ import Layout from "../layout/layout";
 import profilepic from "@/src/components/profilepic.jpeg";
 import {
   ArrowIcon,
+  Flutter,
   GithubIcon,
+  Golang,
   InstagramIcon,
   LinkedInIcon,
+  NextLogo,
+  Nodejs,
   TwitterIcon,
 } from "@/src/components/icons";
 import { socialLinks } from "@/lib/info";
+import AWS from "@/src/components/aws.svg";
+import GCP from "@/src/components/gcp.svg";
+import Postgres from "@/src/components/postgres.svg";
+import Mongo from "@/src/components/mongodb.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <Layout data={{ title: "Murali Elumalai", description:"A portfolio of Murali Elumalai's website" }}>
+    <Layout
+      data={{
+        title: "Murali Elumalai",
+        description: "A portfolio of Murali Elumalai's website",
+      }}
+    >
       <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">
         Murali Elumalai
       </h1>
+
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {`Hey, I'm Murali.`} <b>{`I'm an Engineer II at Eli & Lilly`}</b>, where
         my team is building a better future through technology driven
         problem-solving.
       </p>
+      <ul className="mb-2 flex flex-wrap  max-w-[460px]" aria-label="Technologies used">
+        <li className="mr-1.5 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            React
+          </div>
+        </li>
+        <li className="mr-1.5 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            Tailwindcss
+          </div>
+        </li>
+        <li className="mr-1.5 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            Golang
+          </div>
+        </li>
+        <li className="mr-1.5 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            Node.js
+          </div>
+        </li>
+        <li className="mr-1.5 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            AWS
+          </div>
+        </li>
+        <li className="mr-1.5 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            Typescript
+          </div>
+        </li>
+      </ul>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row text-white">
         <Image
           src={profilepic}
@@ -68,33 +114,40 @@ export default function Home() {
         {`As a passionate Engineer, I specialize in Full Stack development, aiding early-stage startups with easily adoptable tech stacks. 
         I actively collaborate on open-source projects, fostering a spirit of innovation and collaboration.`}
       </p>
-      {/* <hr className="border-neutral-500 mt-5 mb-3"></hr> */}
-      {/* <h1 className="dark:text-neutral-200 pb-2 font-bold font-serif">Social Links</h1>
-      <div className="flex flex-col gap-2 md:flex-row md:gap-2">
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href={socialLinks.instagram}
-          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-        >
-          <div className="flex items-center">
-            <div className="">Node.js</div>
-          </div>
-          <ArrowIcon />
-        </a>
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href={socialLinks.twitter}
-          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-        >
-          <div className="flex items-center">
-            <div className="">React</div>
-          </div>
-          <ArrowIcon />
-        </a>
-       
-      </div> */}
+
+      
+      <div className="max-w-[460px] text-neutral-900 dark:text-neutral-100 prose prose-neutral dark:prose-invert ">
+        <p>
+            I have also worked on companies like JP Morgan & Chase, ARInspect as a
+          spring boot developer.
+        </p>
+      </div>
+      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
+      <li>
+          <a
+            href={socialLinks.twitter}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+          >
+            <ArrowIcon />
+            <p className="h-7 ml-2">Follow me on twitter</p>
+          </a>
+        </li>
+        <li className="">
+          <a
+            href={socialLinks.email}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+          >
+            <ArrowIcon />
+            <p className="h-7 ml-2">Send me an email</p>
+          </a>
+
+        </li>
+        
+      </ul>
     </Layout>
   );
 }

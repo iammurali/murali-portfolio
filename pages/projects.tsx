@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import Layout from "../layout/layout";
 import profilepic from "@/src/components/profilepic.jpeg";
 import { socialLinks } from "@/lib/info";
-import { ArrowIcon, GithubIcon } from "@/src/components/icons";
+import { ArrowIcon, Flutter, GithubIcon, Golang, NextLogo, Nodejs } from "@/src/components/icons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +16,33 @@ export default function About() {
         {`This is the early stage of showcasing my projects, 
         I will keep building stuff that will use and list out here`}
       </p>
+      {/* <div className="my-4 flex flex-row space-x-1 max-w-[460px] h-14 overflow-x-auto">
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <Nodejs />
+          <span className="text-neutral-900 dark:text-neutral-100 ml-3">
+            Node.js
+          </span>
+        </div>
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <Golang />
+          <span className="text-neutral-900 dark:text-neutral-100 ml-3">
+            Golang
+          </span>
+        </div>
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <NextLogo />
+          <span className="text-neutral-900 dark:text-neutral-100 ml-3">
+            Next.js
+          </span>
+        </div>
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <Flutter   />
+          <span className="text-neutral-900 dark:text-neutral-100 ml-3">
+            Flutter
+          </span>
+        </div>
+      </div> */}
+      
       <hr className="border-neutral-500 mt-3 mb-3"></hr>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <a

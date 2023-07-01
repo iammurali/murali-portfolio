@@ -59,7 +59,7 @@ const Layout = ({
   data,
   children,
 }: {
-  data: { title: string, description: string };
+  data: { title: string; description: string };
   children: ReactNode;
 }) => {
   let { title, description } = data;
@@ -90,6 +90,19 @@ const Layout = ({
                   </Link>
                 </li>
                 <li className="py-[5px]">
+                  <Link href="/projects">
+                    <span
+                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                        pathName == "/projects"
+                          ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
+                          : ""
+                      }`}
+                    >
+                      Projects
+                    </span>
+                  </Link>
+                </li>
+                <li className="py-[5px]">
                   <Link href="/about">
                     <span
                       className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
@@ -102,16 +115,17 @@ const Layout = ({
                     </span>
                   </Link>
                 </li>
+
                 <li className="py-[5px]">
-                  <Link href="/projects">
+                  <Link href="/contact">
                     <span
                       className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
-                        pathName == "/projects"
+                        pathName == "/contact"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
                           : ""
                       }`}
                     >
-                      Projects
+                      Contact
                     </span>
                   </Link>
                 </li>
