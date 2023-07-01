@@ -34,12 +34,12 @@ export default function Home() {
         Murali Elumalai
       </h1>
 
-      <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
+      <p className="my-5 max-w-[480px] text-neutral-800 dark:text-neutral-200">
         {`Hey, I'm Murali.`} <b>{`I'm an Engineer II at Eli & Lilly`}</b>, where
         my team is building a better future through technology driven
         problem-solving.
       </p>
-      <ul className="mb-2 flex flex-wrap  max-w-[460px]" aria-label="Technologies used">
+      <ul className="mb-2 flex flex-wrap  max-w-[480px]" aria-label="Technologies used">
         <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             React
@@ -47,22 +47,17 @@ export default function Home() {
         </li>
         <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
-            Tailwindcss
+            Tailwind
           </div>
         </li>
         <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
-            Golang
+            Go
           </div>
         </li>
         <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
             Node.js
-          </div>
-        </li>
-        <li className="mr-1 mt-2">
-          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
-            AWS
           </div>
         </li>
         <li className="mr-1 mt-2">
