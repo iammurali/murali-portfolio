@@ -47,7 +47,7 @@ export default function Home() {
         </li>
         <li className="mr-1 mt-2">
           <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
-            Tailwind
+            Flutter
           </div>
         </li>
         <li className="mr-1 mt-2">
