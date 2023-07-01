@@ -115,20 +115,6 @@ const Layout = ({
                     </span>
                   </Link>
                 </li>
-
-                <li className="py-[5px]">
-                  <Link href="/contact">
-                    <span
-                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
-                        pathName == "/contact"
-                          ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
-                          : ""
-                      }`}
-                    >
-                      Contact
-                    </span>
-                  </Link>
-                </li>
                 <li className="py-[5px]">
                   <Link
                     href="https://blog.muralielumalai.com/"
