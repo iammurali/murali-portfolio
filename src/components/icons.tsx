@@ -67,10 +67,10 @@ export function TwitterIcon() {
   );
 }
 
-export function ArrowIcon() {
+export function ArrowIcon({color}:{color?: string}) {
   return (
     <svg
-      className="mr-2"
+      className={`mr-2 ${color ? color : ''}`}
       width="12"
       height="12"
       viewBox="0 0 12 12"

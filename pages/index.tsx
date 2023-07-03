@@ -118,17 +118,7 @@ export default function Home() {
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
-      <li>
-          <a
-            href={socialLinks.twitter}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
-          >
-            <ArrowIcon />
-            <p className="h-7 ml-2">Follow me on twitter</p>
-          </a>
-        </li>
+     
         <li className="">
           <a
             href={socialLinks.email}
@@ -136,8 +126,8 @@ export default function Home() {
             target="_blank"
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
           >
-            <ArrowIcon />
-            <p className="h-7 ml-2">Send me an email</p>
+            <ArrowIcon color="text-blue-600"/>
+            <p className="h-7 ml-2 text-blue-600">Send me an email</p>
           </a>
 
         </li>
