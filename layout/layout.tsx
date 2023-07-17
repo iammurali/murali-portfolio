@@ -115,7 +115,7 @@ const Layout = ({
                     </span>
                   </Link>
                 </li>
-                <li className="py-[5px]">
+                {/* <li className="py-[5px]">
                   <Link
                     href="https://blog.muralielumalai.com/"
                     target="_blank"
@@ -127,7 +127,7 @@ const Layout = ({
                       Blog {`>>`}
                     </span>
                   </Link>
-                </li>
+                </li> */}
 
                 {/* Add more menu items as needed */}
               </ul>
