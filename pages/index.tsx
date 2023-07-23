@@ -113,7 +113,7 @@ export default function Home() {
       
       <div className="max-w-[460px] text-neutral-900 dark:text-neutral-100 prose prose-neutral dark:prose-invert ">
         <p>
-            I have also worked on companies like JP Morgan & Chase, ARInspect as a
+            I have also worked with companies like JP Morgan & Chase, ARInspect as a
           spring boot developer.
         </p>
       </div>
