@@ -104,7 +104,27 @@ export default function About() {
             </p>
           </div>
         </a>
-        
+        {/*  */}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={`https://usedaily.io`}
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex flex-col flex-1">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center">
+                <GithubIcon />
+                <div className="ml-3">Use Daily</div>
+              </div>
+              <ArrowIcon />
+            </div>
+            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
+              Landing page for an early stage startup
+            </p>
+          </div>
+        </a>
+        {/*  */}
       </div>
     </Layout>
   );
