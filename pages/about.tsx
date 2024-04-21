@@ -171,7 +171,7 @@ export default function About() {
             <div className="flex items-center justify-between">
               <div className="flex items-center">
                 {/* <GithubIcon /> */}
-                <div>{`Iphone 11`}</div>
+                <div>{`Pixel 7`}</div>
               </div>
               <ArrowIcon />
             </div>

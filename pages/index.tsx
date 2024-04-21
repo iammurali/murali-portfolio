@@ -35,9 +35,9 @@ export default function Home() {
       </h1>
 
       <p className="my-5 max-w-[480px] text-neutral-800 dark:text-neutral-200">
-      {`Hey, I'm Murali 👋`}<br /> <b>{`I'm an Engineer II at Eli & Lilly`}</b>, where
-        my team is building a better future through technology driven
-        problem-solving.
+      {`Hey, I'm Murali 👋`}<br />
+      {`I work as a full time software engineer at`} <b>Eli Lilly and Company</b>, I build and tinker with side projects every now n then. 
+      
       </p>
       <ul className="mb-2 flex flex-wrap  max-w-[480px]" aria-label="Technologies used">
         <li className="mr-1 mt-2">
@@ -106,15 +106,13 @@ export default function Home() {
         {/* bio */}
       </div>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-        {`As a passionate Engineer, I specialize in Full Stack development, aiding early-stage startups with easily adoptable tech stacks. 
-        I actively collaborate on open-source projects, fostering a spirit of innovation and collaboration.`}
+        <b>With over half a decade of industry experience</b>, {`I am deeply passionate about software engineering, taking immense satisfaction in crafting products from conception to completion. For me, coding transcends mere work — it's a vocation.`}
       </p>
 
       
       <div className="max-w-[460px] text-neutral-900 dark:text-neutral-100 prose prose-neutral dark:prose-invert ">
         <p>
-            I have also worked with companies like JP Morgan & Chase, ARInspect as a
-          spring boot developer.
+            I have also worked with companies like <b>JP Morgan & Chase and ARInspect.</b>
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
@@ -128,6 +126,18 @@ export default function Home() {
           >
             <ArrowIcon color="text-blue-600"/>
             <p className="h-7 ml-2 text-blue-600">Send me an email</p>
+          </a>
+
+        </li>
+        <li className="">
+          <a
+            href={socialLinks.email}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+          >
+            <ArrowIcon color="text-blue-600"/>
+            <p className="h-7 ml-2 text-blue-600">Download resume</p>
           </a>
 
         </li>

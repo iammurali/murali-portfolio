@@ -45,7 +45,7 @@ export default function About() {
       
       <hr className="border-neutral-500 mt-3 mb-3"></hr>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <a
+        {/* <a
           rel="noopener noreferrer"
           target="_blank"
           href={`https://github.com/iammurali/finnacle`}
@@ -63,12 +63,12 @@ export default function About() {
               your personal finance tracker
             </p>
           </div>
-        </a>
+        </a> */}
         {/*  */}
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href={`https://github.com/iammurali/snuglweb`}
+          href={`https://snugl.vercel.app`}
           className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex flex-col flex-1">
@@ -80,7 +80,7 @@ export default function About() {
               <ArrowIcon />
             </div>
             <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              No Code Landing page generator
+              No Code Landing page generator (deprecated)
             </p>
           </div>
         </a>
@@ -100,7 +100,7 @@ export default function About() {
               <ArrowIcon />
             </div>
             <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              A cool text only portfolio webiste
+              A cool text only portfolio webiste (deprecated)
             </p>
           </div>
         </a>
