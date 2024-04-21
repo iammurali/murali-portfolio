@@ -14,7 +14,7 @@ import {
   Nodejs,
   TwitterIcon,
 } from "@/src/components/icons";
-import { socialLinks } from "@/lib/info";
+import { allLinks, socialLinks } from "@/lib/info";
 import AWS from "@/src/components/aws.svg";
 import GCP from "@/src/components/gcp.svg";
 import Postgres from "@/src/components/postgres.svg";
@@ -131,7 +131,7 @@ export default function Home() {
         </li>
         <li className="">
           <a
-            href={socialLinks.email}
+            href={allLinks.resume}
             rel="noopener noreferrer"
             target="_blank"
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
