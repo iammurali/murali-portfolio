@@ -65,46 +65,7 @@ export default function About() {
           </div>
         </a> */}
         {/*  */}
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href={`https://snugl.vercel.app`}
-          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-        >
-          <div className="flex flex-col flex-1">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <GithubIcon />
-                <div className="ml-3">Snugl</div>
-              </div>
-              <ArrowIcon />
-            </div>
-            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              No Code Landing page generator (deprecated)
-            </p>
-          </div>
-        </a>
-        {/*  */}
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href={`https://github.com/iammurali/animated-portfolio`}
-          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-        >
-          <div className="flex flex-col flex-1">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <GithubIcon />
-                <div className="ml-3">Animated portfolio</div>
-              </div>
-              <ArrowIcon />
-            </div>
-            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              A cool text only portfolio webiste (deprecated)
-            </p>
-          </div>
-        </a>
-        {/*  */}
+       
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -125,6 +86,45 @@ export default function About() {
           </div>
         </a>
         {/*  */}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={`https://www.edaikazhinaducoffeehouse.in`}
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex flex-col flex-1">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center">
+                <GithubIcon />
+                <div className="ml-3">Coffee house</div>
+              </div>
+              <ArrowIcon />
+            </div>
+            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
+              Still in development
+            </p>
+          </div>
+        </a>
+
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={`https://snugl.vercel.app`}
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+        >
+          <div className="flex flex-col flex-1">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center">
+                <GithubIcon />
+                <div className="ml-3">Snugl</div>
+              </div>
+              <ArrowIcon />
+            </div>
+            <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
+              No Code Landing page generator (deprecated)
+            </p>
+          </div>
+        </a>
       </div>
     </Layout>
   );
