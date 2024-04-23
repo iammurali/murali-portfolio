@@ -5,14 +5,14 @@ import Layout from "../layout/layout";
 import profilepic from "@/src/components/profilepic.jpeg";
 import {
   ArrowIcon,
-  Flutter,
   GithubIcon,
+  LinkedInIcon,
+  TwitterIcon,
+  Flutter,
   Golang,
   InstagramIcon,
-  LinkedInIcon,
   NextLogo,
   Nodejs,
-  TwitterIcon,
 } from "@/src/components/icons";
 import { allLinks, socialLinks } from "@/lib/info";
 import AWS from "@/src/components/aws.svg";
