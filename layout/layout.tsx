@@ -98,7 +98,7 @@ const Layout = ({
                           : ""
                       }`}
                     >
-                      Projects
+                      Ventures
                     </span>
                   </Link>
                 </li>

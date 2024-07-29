@@ -25,7 +25,7 @@ export default function About() {
         About me
       </h1>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-        {`Hey, I'm Murali 👋`}<br /> I have over 5years of hands on experience in
+        {`Hello again 👋`}<br /> I have over half a decade of hands on experience in
         fullstack development and software engineering.
         {`I'm helping early stage startups with their technology`}
       </p>
@@ -36,6 +36,9 @@ export default function About() {
       </p>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {`I love petting dogs, playing games and listening to music`}
+      </p>
+      <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
+        {`I also run a ecommerce website along with my friend`} - <a className="text-blue-500" href="https://tulirnaturals.com/">Tulir Naturals</a>
       </p>
       <hr className="border-neutral-500 mt-5 mb-3"></hr>
       <h1 className="dark:text-neutral-200 pb-2 font-bold font-serif">
