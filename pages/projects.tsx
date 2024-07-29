@@ -75,12 +75,12 @@ export default function About() {
             <div className="flex items-center justify-between">
               <div className="flex items-center">
                 <GithubIcon />
-                <div className="ml-3">Daily dose of sarcasm - DDOS</div>
+                <div className="ml-3">Daily dose of sarcasm</div>
               </div>
               <ArrowIcon />
             </div>
             <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              Receive sarcasms on whatsapp and show a sarcasm daily.
+              sends daily sarcasm to you and refreshes everyday - DDOS
             </p>
           </div>
         </a>
