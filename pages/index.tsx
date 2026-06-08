@@ -65,6 +65,16 @@ export default function Home() {
             Typescript
           </div>
         </li>
+        <li className="mr-1 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            LangChain
+          </div>
+        </li>
+        <li className="mr-1 mt-2">
+          <div className="flex items-center rounded-full bg-neutral-50 dark:bg-neutral-800 px-3 py-1 text-xs font-medium leading-5 text-neutral-900 dark:text-neutral-100">
+            Agentic LLMs
+          </div>
+        </li>
       </ul>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row text-white">
         <Image
@@ -106,7 +116,7 @@ export default function Home() {
         {/* bio */}
       </div>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-        <b>With over half a decade of industry experience</b>, {`I am deeply passionate about software engineering, taking immense satisfaction in crafting products from conception to completion. For me, coding transcends mere work — it's a vocation.`}
+        <b>With over 8 years of industry experience</b>, {`I am deeply passionate about software engineering, taking immense satisfaction in crafting products from conception to completion. For me, coding transcends mere work — it's a vocation.`}
       </p>
 
       

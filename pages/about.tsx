@@ -25,7 +25,7 @@ export default function About() {
         About me
       </h1>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-        {`Hello again 👋`}<br /> I have over half a decade of hands on experience in
+        {`Hello again 👋`}<br /> I have over 8 years of hands on experience in
         fullstack development and software engineering.
         {`I'm helping early stage startups with their technology`}
       </p>
@@ -101,7 +101,7 @@ export default function About() {
               <ArrowIcon />
             </div>
             <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              This is my primary laptop i use for work. M1 Pro, 16GB.
+              This is my primary laptop i use for work. M4 Pro, 24GB.
             </p>
           </div>
         </a>
@@ -174,12 +174,12 @@ export default function About() {
             <div className="flex items-center justify-between">
               <div className="flex items-center">
                 {/* <GithubIcon /> */}
-                <div>{`Pixel 7`}</div>
+                <div>{`Nothing Phone 3`}</div>
               </div>
               <ArrowIcon />
             </div>
             <p className="text-neutral-500 dark:text-neutral-400 text-xs mt-2">
-              {`Not planning to replace until its not satisfying my need.`}
+              {`Daily driver, love the design.`}
             </p>
           </div>
         </a>
